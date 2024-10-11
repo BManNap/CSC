@@ -1,0 +1,23 @@
+nav {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    margin:  0 0 0 0;
+    display: flex;
+}
+.menu ul li a {
+    size: 5em;
+}
+.menu {
+    display: inline-block;
+}
+
+.menu a::after {
+    display: inline-block;
+    color: #000;
+    content: ' | ';
+    font-weight: bold;
+    padding: 0 5px;
+    }
