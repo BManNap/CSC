@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php require('chunks/menu.html');?>
-    <h1>The Cloquet Service Center</h1>
-    <p><?php require('chunks/home.txt');?></p>
+    <div class="mainText">
+        <?php require('chunks/menu.html');?>
+        <h1>The Cloquet Service Center</h1>
+        <p><?php require('chunks/home.txt');?></p>
+    </div>
 </body>
 </html>

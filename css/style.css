@@ -1,3 +1,18 @@
+html {
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+body {
+    margin: 5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 80vh;
+    min-width: 80vw;
+    
+}
+
 nav {
     border-bottom: 1px solid black;
     width: 100%;
@@ -20,4 +35,13 @@ nav {
     content: ' | ';
     font-weight: bold;
     padding: 0 5px;
-    }
+}
+
+.mainText {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.estimate {
+
+}
