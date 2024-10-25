@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <?php require('chunks/cssLinks.html');?>
-    
+    <?php require('chunks/jsLinks.html');?>
 </head>
 <body>
     <div class="mainText">
@@ -15,3 +15,7 @@
     </div>
 </body>
 </html>
+
+<!-- Forms
+ https://getbootstrap.com/docs/5.3/forms/overview/
+-->

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estimate</title>
     <?php require('chunks/cssLinks.html');?>
-    
+    <?php require('chunks/jsLinks.html');?>
 </head>
 <body>
     <?php require('chunks/menu.html');?>
