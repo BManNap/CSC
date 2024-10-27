@@ -8,10 +8,10 @@
     <?php require('chunks/jsLinks.html');?>
 </head>
 <body>
-    <div class="mainText">
+    <div class="mainText p-2">
         <?php require('chunks/menu.html');?>
         <h1>The Cloquet Service Center</h1>
-        <p><?php require('chunks/home.txt');?></p>
+        <p class=""><?php require('chunks/home.txt');?></p>
     </div>
 </body>
 </html>

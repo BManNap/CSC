@@ -17,6 +17,10 @@ nav {
     border-bottom: 1px solid black;
     width: 100%;
 }
+.iconImg {
+    width: 1em;
+    height: .5em;
+}
 .menu ul {
     list-style-type: none;
     margin:  0 0 0 0;
