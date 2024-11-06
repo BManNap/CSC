@@ -5,7 +5,6 @@ html {
 }
 body {
     margin: 5%;
-    background-color: white;
     padding: 10px;
     border-radius: 10px;
     min-height: 80vh;
@@ -17,9 +16,16 @@ nav {
     border-bottom: 1px solid black;
     width: 100%;
 }
+.logoImg {
+    max-width: 50vw;
+}
 .iconImg {
     width: 1em;
     height: .5em;
+}
+.shopImg {
+    max-width: 100%;
+    
 }
 .menu ul {
     list-style-type: none;

@@ -8,10 +8,14 @@
     <?php require('chunks/jsLinks.html');?>
 </head>
 <body>
-    <div class="mainText p-2">
+    <div class="mainText p-2 container">
         <?php require('chunks/menu.html');?>
-        <h1>The Cloquet Service Center</h1>
-        <p class=""><?php require('chunks/home.txt');?></p>
+        <h1 class="row justify-content-center">Cloquet Service Center</h1>
+        <div class="row justify-content-center align-center">
+            <img class="shopImg align-center col col-md-8 col-sm-12" src="assests/whole1.png" />
+            <p class="border border-4 border-primary col col-md-4 col-sm-12 fs-2 bg-dark text-white"><?php require('chunks/sidebar.txt');?></p>
+        </div>
+        <p class="row justify-content-center align-center"><?php require('chunks/home.txt');?></p>
     </div>
 </body>
 </html>
